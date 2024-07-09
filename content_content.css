@@ -1,0 +1,72 @@
+content_body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.content_container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content_subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content_content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    white-space: normal;
+    text-indent: 2em;
+    /* 首行缩进两个字符 */
+}
+
+.content_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content_images img {
+    /* max-width: 100%; */
+    height: auto;
+    border-radius: 4px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+
+/* styles.css */
+.full_text {
+    font-size: 16px;
+    white-space: pre-wrap; /* 保持原有的换行符并自动换行 */
+    margin-bottom: 10px; /* 每段文字的下边距（可选） */
+    padding-left: 2em; /* 为了让文本左移两格 */
+    text-indent: 2em; /* 正的缩进效果，让第一行缩进两格 */
+    line-height: 2.5;
+}
+
+/* .full_text::before {
+    content: '';
+    display: inline-block;
+    width: 2em; /* 首行空两格 
+} */
