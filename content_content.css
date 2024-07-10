@@ -71,13 +71,12 @@ content_body {
 }
 
 
-/* styles.css */
+/* 用于制度性的文字 */
 .full_text {
     font-size: 16px;
+    text-indent: 2em; /* 正的缩进效果，让第一行缩进两格 */
     white-space: pre-wrap; /* 保持原有的换行符并自动换行 */
     margin-bottom: 10px; /* 每段文字的下边距（可选） */
-    padding-left: 2em; /* 为了让文本左移两格 */
-    text-indent: 2em; /* 正的缩进效果，让第一行缩进两格 */
     line-height: 2.5;
 }
 
